@@ -375,5 +375,5 @@ start.addEventListener("click", (e) => {
 });
 finish.addEventListener("click", (e) => {
   e.preventDefault();
-  questionEl.textContent = `Ученикото дговори точно на ${scoreEl.textContent} од ${questionCount.textContent}`;
+  questionEl.textContent = `Ученикот одговори точно на ${scoreEl.textContent} од ${questionCount.textContent} прешања`;
 });
