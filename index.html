@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>KVIZ</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="panel">
+        <div class="content">
+          <div class="score">
+            <h5>
+              question:<span class="question-count">0</span>/<span
+                class="all-questions"
+                >0</span
+              >
+            </h5>
+            <h5>score:<span class="score-count">0</span></h5>
+          </div>
+          <div class="text">
+            <h1 class="lang">KVIZ</h1>
+            <h2 class="question">student</h2>
+          </div>
+          <div class="answers">
+            <div class="answer"></div>
+            <div class="answer"></div>
+            <div class="answer"></div>
+            <div class="answer"></div>
+          </div>
+          <div class="btn-box">
+            <button class="btn start">Start</button>
+            <button class="btn" onclick="nextFunc()">Next</button>
+
+            <button class="btn finish">Finish</button>
+          </div>
+        </div>
+      </div>
+      <ol class="panel ol"></ol>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

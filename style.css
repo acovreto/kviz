@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.container {
+  width: 98vw;
+  min-height: 90vh;
+  background-color: #dbe4ff;
+  color: #1c6bff;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: stretch;
+  padding: 30px 0;
+  gap: 30px;
+}
+.panel {
+  width: 75%;
+  height: 100%;
+  background-color: #8acaf2;
+  background-image: linear-gradient(#8acaf2, #3e85b1);
+  border-radius: 40px;
+  color: white;
+  box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.content {
+  width: 100%;
+  /* height: 90%; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.score {
+  width: 80%;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.question-count,
+.all-questions {
+  font-size: 30px;
+  font-weight: bold;
+}
+.score-count {
+  font-size: 30px;
+  font-weight: bold;
+}
+.score {
+  font-size: 30px;
+  font-weight: bold;
+}
+.answers {
+  margin-top: 20px;
+
+  min-width: 90%;
+  /* height: 300px; */
+
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+
+  color: black;
+  cursor: pointer;
+}
+.answer {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 30px;
+}
+.answer:hover {
+  background-color: #dbe4ff;
+}
+.btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  padding: 10px 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 24px;
+  background-color: #1c6bff;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #4165d1, #094ac4);
+}
+.btn:hover {
+  background-image: linear-gradient(to right, #094ac4, #1c6bff);
+}
+.ol {
+  flex-direction: column;
+  width: 20%;
+  align-items: flex-start;
+  padding-left: 40px;
+  list-style: none;
+}
+ol li {
+  font-size: 12px;
+}
